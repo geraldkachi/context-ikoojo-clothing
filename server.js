@@ -13,7 +13,7 @@ const app = express()
 const port = process.env.PORT || 5000
 
 app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({ extended: true }))
+app.use(bodyP2arser.urlencoded({ extended: true }))
 app.use(enforce.HTTPS({ trustProtoHeader: true }))
 app.use(cors())
 
@@ -53,6 +53,8 @@ app.post('/payment', (req, res) => {
 
 // 500 is a failure status
 // express is just a library that allows us to build an API server easily
+
+// npm init -y
 
 // cors: cross origin request
 

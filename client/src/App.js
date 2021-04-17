@@ -65,7 +65,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <cureentUserContext.Provider >
+        <cureentUserContext.Provider value={this.state.currentUser} >
           <Header />
         </cureentUserContext.Provider>
 

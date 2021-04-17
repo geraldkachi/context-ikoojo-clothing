@@ -39,7 +39,7 @@
       border: 1px solid black;
     }
 
-    .custom-button:hover {
+    .custom-button > .inverted:hover {
       background-color: black;
       color: white;
       border: none;
