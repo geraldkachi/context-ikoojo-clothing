@@ -32,7 +32,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 app.listen( port, error => {
-    if (error) throw error;
+    if (error) throw error;x
     console.log('Server running on port ', + port );
 })
 
@@ -70,4 +70,16 @@ app.post('/payment', (req, res) => {
 
 // "type": "module",
 
+// npm install bcyrpt   this is for encurpting pass for security
+
 // npm run dev 
+
+
+// API
+// https://canopy-frontend-task.vercel.app/api/holdings
+// https://canopy-frontend-task.vercel.app/api/transactions
+
+
+// for typescript in react 
+// npm i -g expo-cli
+// expo init --template expo-template-blank-typescript
