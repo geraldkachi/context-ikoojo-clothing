@@ -32,7 +32,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 app.listen( port, error => {
-    if (error) throw error;x
+if (error) throw error;
     console.log('Server running on port ', + port );
 })
 
@@ -74,6 +74,7 @@ app.post('/payment', (req, res) => {
 
 // npm run dev 
 
+// https://github.com/ZhangMYihua/lesson-34/blob/master/client/src/index.js
 
 // API
 // https://canopy-frontend-task.vercel.app/api/holdings
