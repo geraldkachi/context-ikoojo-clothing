@@ -1,5 +1,5 @@
 import React, { useContext} from 'react';
-import { CartContext } from '../../providers/cart/cartProvider';
+import { CartContext } from '../../providers/cart/CartProvider';
 // import { connect } from 'react-redux';
 
 // import {

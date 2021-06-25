@@ -4,7 +4,7 @@ import { createStructuredSelector } from 'reselect';
 
 import CheckoutItem from '../../components/checkout-item/checkout-item.component';
 import StripeCheckoutButton from '../../components/stripe-button/stripe-button.component';
-import { CartContext } from '../../providers/cart/cartProvider';
+import { CartContext } from '../../providers/cart/CartProvider';
 
 import {
   // selectCartItems,

@@ -6,7 +6,7 @@ import { PersistGate } from "redux-persist/integration/react";
 
 import { store, persistor } from "./redux/store";
 
-import CartProvider from "./providers/cart/cartProvider";
+import CartProvider from "./providers/cart/CartProvider";
 
 import "./index.css";
 import App from "./App";
@@ -15,13 +15,13 @@ import App from "./App";
 // you can wrapper it above redux 
 ReactDOM.render(
   <Provider store={store}>
-    <CartProvider.Provider>
+    <CartProvider>
       <BrowserRouter>
         <PersistGate persistor={persistor}>
           <App />
         </PersistGate>
       </BrowserRouter>
-    </CartProvider.Provider>
+    </CartProvider>
   </Provider>,
   document.getElementById("root")
 );

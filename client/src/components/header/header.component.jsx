@@ -14,7 +14,7 @@ import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 import { ReactComponent as Logo } from '../../assets/crown.svg';
 import CurrentUserContext from '../../context/current-user/currentUserContext';
 
-import { CartContext } from '../../providers/cart/cartProvider';
+import { CartContext } from '../../providers/cart/CartProvider';
 
 import './header.css';
 

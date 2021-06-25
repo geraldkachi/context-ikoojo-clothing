@@ -17,7 +17,7 @@ import Header from './components/header/header.component';
 
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 
-import cureentUserContext from './context/current-user/currentUserContext';
+import CurrentUserContext from './context/current-user/currentUserContext';
 
 
 
@@ -65,9 +65,9 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <cureentUserContext.Provider value={this.state.currentUser} >
+        <CurrentUserContext.Provider value={this.state.currentUser} >
           <Header />
-        </cureentUserContext.Provider>
+        </CurrentUserContext.Provider>
 
         <Switch>
           <Route exact path='/' component={HomePage} />

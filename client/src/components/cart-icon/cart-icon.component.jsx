@@ -9,7 +9,7 @@ import React, { useContext } from 'react';
 import { ReactComponent as ShoppingIcon } from '../../assets/shopping-bag.svg';
 
 import './cart-icon.css';
-import {CartContext} from '../../providers/cart/cartProvider';
+import { CartContext } from '../../providers/cart/CartProvider';
 
 // const CartIcon = ({ toggleCartHidden, itemCount }) => {
 
@@ -25,7 +25,7 @@ const CartIcon = () => {
   </div>
 )}
 
-export default CartIcon
+export default CartIcon  
 
 // const mapDispatchToProps = dispatch => ({
 //   toggleCartHidden: () => dispatch(toggleCartHidden())
